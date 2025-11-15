@@ -8,6 +8,7 @@ import pymysql
 import pickle
 import numpy as np
 
+
 load_dotenv()
 
 host = os.getenv("host")

@@ -1,0 +1,1 @@
+This is a complete machine learning project to predict used BMW car prices using Python. The project demonstrates professional data science workflow from data loading to model deployment.
