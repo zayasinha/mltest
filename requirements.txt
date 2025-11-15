@@ -4,3 +4,6 @@ mysql-connector-python
 python-dotenv
 pymysql
 scikit-learn
+seaborn
+matplotlib
+joblib
