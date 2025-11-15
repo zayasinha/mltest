@@ -6,6 +6,7 @@ from src.mltest.components.data_ingestion import DataIngestionConfig
 from src.mltest.components.data_transformation import DataTransformationConfig, DataTransformation
 import sys
 
+
 if __name__ == "__main__":
     try:
         logging.info("Starting the MLTest application...")
