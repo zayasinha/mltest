@@ -1,0 +1,354 @@
+{
+    "Linear Regression": {
+        "metrics": {
+            "train_r2": 0.8631757898707033,
+            "test_r2": 0.8830162945583238,
+            "train_rmse": 4186.270345033541,
+            "test_rmse": 4033.279364019378,
+            "train_mae": 2759.6839049972878,
+            "test_mae": 2792.7962521353447,
+            "overfitting_gap": -0.01984050468762044,
+            "cv_train_r2_mean": 0.8634509306399561,
+            "cv_train_r2_std": 0.004982077652554833,
+            "cv_test_r2_mean": 0.8605788650768812,
+            "cv_test_r2_std": 0.020295157880599764,
+            "cv_test_rmse_mean": 4213.6579955555135,
+            "cv_test_rmse_std": 318.82667427388367,
+            "cv_test_mae_mean": 2777.9003486133197,
+            "cv_test_mae_std": 33.65048780643114,
+            "cv_overfitting_gap": 0.0028720655630749548
+        },
+        "best_params": {},
+        "feature_importance": {
+            "feature_0": 4144.707150565335,
+            "feature_4": 3624.2103999589845,
+            "feature_1": 2876.5678356551402,
+            "feature_27": 2744.2253767739744,
+            "feature_24": 2491.604923694349,
+            "feature_22": 2361.920209133024,
+            "feature_2": 1978.9389186144674,
+            "feature_5": 1693.6496261867574,
+            "feature_12": 1605.54601998172,
+            "feature_28": 1474.311854305296,
+            "feature_34": 1457.19475514364,
+            "feature_6": 1433.8124297679549,
+            "feature_23": 1422.9121513390817,
+            "feature_15": 1269.0531073721588,
+            "feature_16": 1068.1800491629297,
+            "feature_11": 883.7558349413604,
+            "feature_20": 811.6840408496502,
+            "feature_7": 729.280139630555,
+            "feature_21": 637.5872471849679,
+            "feature_3": 560.0439540308583,
+            "feature_18": 546.3625786638421,
+            "feature_14": 518.4019728207005,
+            "feature_8": 507.16718847619734,
+            "feature_25": 483.89839419756794,
+            "feature_36": 427.04472597872484,
+            "feature_35": 395.66469203467665,
+            "feature_13": 360.57712308362863,
+            "feature_31": 311.7940094515729,
+            "feature_30": 277.6177357001986,
+            "feature_17": 223.32700635616098,
+            "feature_32": 139.6008257114657,
+            "feature_26": 118.86921013617258,
+            "feature_33": 99.79733178840749,
+            "feature_19": 97.61985480042962,
+            "feature_29": 78.140531858195,
+            "feature_10": 58.03595164449061,
+            "feature_9": 46.041801492707314
+        },
+        "training_time_seconds": 8.594267129898071
+    },
+    "Ridge Regression": {
+        "metrics": {
+            "train_r2": 0.863169392562819,
+            "test_r2": 0.8829448522560881,
+            "train_rmse": 4186.368209831106,
+            "test_rmse": 4034.5107439908056,
+            "train_mae": 2761.2518011450893,
+            "test_mae": 2794.7536653840025,
+            "overfitting_gap": -0.019775459693269104,
+            "cv_train_r2_mean": 0.8634409590693768,
+            "cv_train_r2_std": 0.0049818540106943395,
+            "cv_test_r2_mean": 0.8605880350356762,
+            "cv_test_r2_std": 0.02025252619906139,
+            "cv_test_rmse_mean": 4213.558517517637,
+            "cv_test_rmse_std": 318.4110617695771,
+            "cv_test_mae_mean": 2779.698663224396,
+            "cv_test_mae_std": 33.53515240640607,
+            "cv_overfitting_gap": 0.0028529240337006323
+        },
+        "best_params": {
+            "alpha": 12.213823484477883
+        },
+        "feature_importance": {
+            "feature_0": 4137.532692898965,
+            "feature_4": 3529.2371596663875,
+            "feature_1": 2879.1814802936096,
+            "feature_27": 2676.007963985753,
+            "feature_24": 2492.8927598969303,
+            "feature_22": 2365.881628928318,
+            "feature_2": 1986.5314983762923,
+            "feature_5": 1693.0448132172535,
+            "feature_12": 1605.438660759434,
+            "feature_28": 1470.2291835782528,
+            "feature_6": 1432.0181881651129,
+            "feature_34": 1427.3824202741346,
+            "feature_23": 1424.3931711417763,
+            "feature_15": 1268.651201787197,
+            "feature_16": 1067.0171840323608,
+            "feature_11": 883.5928146883912,
+            "feature_20": 815.2627001266665,
+            "feature_7": 727.5790482208738,
+            "feature_21": 640.7290406092903,
+            "feature_3": 548.3821863508738,
+            "feature_18": 544.3090472208909,
+            "feature_14": 517.207388003385,
+            "feature_8": 507.80957573850094,
+            "feature_25": 482.30973746441697,
+            "feature_36": 411.0663413866723,
+            "feature_35": 383.400179840297,
+            "feature_13": 361.5092024609466,
+            "feature_31": 314.66667469140833,
+            "feature_30": 281.05545991982024,
+            "feature_17": 221.38748203202178,
+            "feature_32": 143.33945765497083,
+            "feature_26": 120.12842206355472,
+            "feature_33": 97.6578424563726,
+            "feature_19": 94.34573478255807,
+            "feature_29": 78.06829864993445,
+            "feature_10": 58.37514806669381,
+            "feature_9": 45.25702603861382
+        },
+        "training_time_seconds": 1.7205946445465088
+    },
+    "Lasso Regression": {
+        "metrics": {
+            "train_r2": 0.8631730155460533,
+            "test_r2": 0.8829791852380582,
+            "train_rmse": 4186.312786404575,
+            "test_rmse": 4033.9190274121506,
+            "train_mae": 2760.677173039992,
+            "test_mae": 2794.1087972864043,
+            "overfitting_gap": -0.019806169692004882,
+            "cv_train_r2_mean": 0.8634481415588902,
+            "cv_train_r2_std": 0.0049820868122337535,
+            "cv_test_r2_mean": 0.8605807963378542,
+            "cv_test_r2_std": 0.02027048332908003,
+            "cv_test_rmse_mean": 4213.654912653953,
+            "cv_test_rmse_std": 318.62687134518177,
+            "cv_test_mae_mean": 2778.874692339884,
+            "cv_test_mae_std": 33.6499251158868,
+            "cv_overfitting_gap": 0.002867345221035933
+        },
+        "best_params": {
+            "alpha": 2.0684494295802445
+        },
+        "feature_importance": {
+            "feature_0": 4143.91533229912,
+            "feature_4": 3570.7431040431543,
+            "feature_1": 2875.8828025692624,
+            "feature_27": 2698.7113863553914,
+            "feature_24": 2481.2685731607094,
+            "feature_22": 2333.0728027798414,
+            "feature_2": 1986.068065238936,
+            "feature_5": 1750.2254676217983,
+            "feature_12": 1596.0707069482341,
+            "feature_34": 1489.5138454561197,
+            "feature_6": 1479.0896771535372,
+            "feature_28": 1465.4050132853577,
+            "feature_23": 1407.593781557597,
+            "feature_15": 1251.395014626848,
+            "feature_16": 1058.6899437839936,
+            "feature_11": 868.2833509939715,
+            "feature_7": 788.9208186186482,
+            "feature_20": 779.6790738577737,
+            "feature_21": 619.4923092069879,
+            "feature_18": 582.9443607904506,
+            "feature_3": 550.4292231804014,
+            "feature_8": 548.9333537148563,
+            "feature_14": 508.5923968545981,
+            "feature_25": 477.6520070331263,
+            "feature_35": 403.2555613901528,
+            "feature_31": 393.57274444873553,
+            "feature_13": 353.0548831315123,
+            "feature_36": 278.10363940979556,
+            "feature_17": 215.31198718212423,
+            "feature_30": 207.74671781899698,
+            "feature_19": 117.97641011865618,
+            "feature_26": 101.84329355608693,
+            "feature_33": 100.8429822718486,
+            "feature_10": 41.00673232231622,
+            "feature_9": 0.0,
+            "feature_29": 0.0,
+            "feature_32": 0.0
+        },
+        "training_time_seconds": 12.974265813827515
+    },
+    "Decision Tree": {
+        "metrics": {
+            "train_r2": 0.9756972945779578,
+            "test_r2": 0.9401207316995102,
+            "train_rmse": 1764.3027365087512,
+            "test_rmse": 2885.584922070926,
+            "train_mae": 853.5490972038166,
+            "test_mae": 1835.722833741749,
+            "overfitting_gap": 0.03557656287844768,
+            "cv_train_r2_mean": 0.9749654636925588,
+            "cv_train_r2_std": 0.0033666395005712306,
+            "cv_test_r2_mean": 0.919623255372165,
+            "cv_test_r2_std": 0.018083469706022814,
+            "cv_test_rmse_mean": 3190.046497953257,
+            "cv_test_rmse_std": 361.5056284544367,
+            "cv_test_mae_mean": 1871.403970354567,
+            "cv_test_mae_std": 53.08937617704365,
+            "cv_overfitting_gap": 0.055342208320393715
+        },
+        "best_params": {
+            "criterion": "squared_error",
+            "max_depth": 30,
+            "min_samples_leaf": 1,
+            "min_samples_split": 8,
+            "splitter": "best"
+        },
+        "feature_importance": {
+            "feature_0": 0.45760432757159014,
+            "feature_2": 0.2704619113952916,
+            "feature_4": 0.09069127265463708,
+            "feature_1": 0.05394234850373818,
+            "feature_28": 0.019799408338160795,
+            "feature_30": 0.015596537599731106,
+            "feature_24": 0.014064330781002353,
+            "feature_22": 0.012988172811007802,
+            "feature_11": 0.007872314736166668,
+            "feature_5": 0.0077573514633875575,
+            "feature_12": 0.007642702147794441,
+            "feature_20": 0.00753902151729108,
+            "feature_3": 0.005975244768648118,
+            "feature_6": 0.0057566689194077396,
+            "feature_23": 0.005458814795591561,
+            "feature_9": 0.0025691304764851606,
+            "feature_36": 0.002314821353265693,
+            "feature_7": 0.001653817046325085,
+            "feature_18": 0.001514097196055241,
+            "feature_8": 0.0013180131347949279,
+            "feature_31": 0.0012564750067138469,
+            "feature_21": 0.001083313056962279,
+            "feature_32": 0.000982445826895911,
+            "feature_15": 0.0009171360451188549,
+            "feature_29": 0.0007902996607828783,
+            "feature_34": 0.00056783655431728,
+            "feature_26": 0.0004666588459469576,
+            "feature_19": 0.00039608597900078274,
+            "feature_14": 0.00039229710653764644,
+            "feature_10": 0.00037530366810584203,
+            "feature_13": 0.0002049882097629564,
+            "feature_16": 3.657668644247769e-05,
+            "feature_27": 1.0276143039926635e-05,
+            "feature_17": 0.0,
+            "feature_25": 0.0,
+            "feature_33": 0.0,
+            "feature_35": 0.0
+        },
+        "training_time_seconds": 172.0744812488556
+    },
+    "Random Forest": {
+        "metrics": {
+            "train_r2": -Infinity,
+            "test_r2": -Infinity,
+            "error": {
+                "error_type": "TerminatedWorkerError",
+                "error_message": "A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.",
+                "traceback": "Traceback (most recent call last):\n  File \"C:\\apple\\src\\mltest\\components\\model_trainer.py\", line 531, in initiate_model_trainer\n    search.fit(X_train, y_train)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1051, in fit\n    self._run_search(evaluate_candidates)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1992, in _run_search\n    evaluate_candidates(\n    ~~~~~~~~~~~~~~~~~~~^\n        ParameterSampler(\n        ^^^^^^^^^^^^^^^^^\n            self.param_distributions, self.n_iter, random_state=self.random_state\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 997, in evaluate_candidates\n    out = parallel(\n        delayed(_fit_and_score)(\n    ...<13 lines>...\n        )\n    )\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\utils\\parallel.py\", line 82, in __call__\n    return super().__call__(iterable_with_config_and_warning_filters)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 2072, in __call__\n    return output if self.return_generator else list(output)\n                                                ~~~~^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1682, in _get_outputs\n    yield from self._retrieve()\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1784, in _retrieve\n    self._raise_error_fast()\n    ~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1859, in _raise_error_fast\n    error_job.get_result(self.timeout)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 758, in get_result\n    return self._return_or_raise()\n           ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 773, in _return_or_raise\n    raise self._result\njoblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.\n"
+            }
+        },
+        "best_params": null,
+        "feature_importance": null,
+        "training_time_seconds": 138843.33307671547
+    },
+    "Gradient Boosting": {
+        "metrics": {
+            "train_r2": -Infinity,
+            "test_r2": -Infinity,
+            "error": {
+                "error_type": "TerminatedWorkerError",
+                "error_message": "A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.",
+                "traceback": "Traceback (most recent call last):\n  File \"C:\\apple\\src\\mltest\\components\\model_trainer.py\", line 531, in initiate_model_trainer\n    search.fit(X_train, y_train)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1051, in fit\n    self._run_search(evaluate_candidates)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1992, in _run_search\n    evaluate_candidates(\n    ~~~~~~~~~~~~~~~~~~~^\n        ParameterSampler(\n        ^^^^^^^^^^^^^^^^^\n            self.param_distributions, self.n_iter, random_state=self.random_state\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 997, in evaluate_candidates\n    out = parallel(\n        delayed(_fit_and_score)(\n    ...<13 lines>...\n        )\n    )\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\utils\\parallel.py\", line 82, in __call__\n    return super().__call__(iterable_with_config_and_warning_filters)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 2072, in __call__\n    return output if self.return_generator else list(output)\n                                                ~~~~^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1682, in _get_outputs\n    yield from self._retrieve()\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1784, in _retrieve\n    self._raise_error_fast()\n    ~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1859, in _raise_error_fast\n    error_job.get_result(self.timeout)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 758, in get_result\n    return self._return_or_raise()\n           ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 773, in _return_or_raise\n    raise self._result\njoblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.\n"
+            }
+        },
+        "best_params": null,
+        "feature_importance": null,
+        "training_time_seconds": 0.6914551258087158
+    },
+    "AdaBoost": {
+        "metrics": {
+            "train_r2": -Infinity,
+            "test_r2": -Infinity,
+            "error": {
+                "error_type": "TerminatedWorkerError",
+                "error_message": "A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.",
+                "traceback": "Traceback (most recent call last):\n  File \"C:\\apple\\src\\mltest\\components\\model_trainer.py\", line 531, in initiate_model_trainer\n    search.fit(X_train, y_train)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1051, in fit\n    self._run_search(evaluate_candidates)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1992, in _run_search\n    evaluate_candidates(\n    ~~~~~~~~~~~~~~~~~~~^\n        ParameterSampler(\n        ^^^^^^^^^^^^^^^^^\n            self.param_distributions, self.n_iter, random_state=self.random_state\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 997, in evaluate_candidates\n    out = parallel(\n        delayed(_fit_and_score)(\n    ...<13 lines>...\n        )\n    )\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\utils\\parallel.py\", line 82, in __call__\n    return super().__call__(iterable_with_config_and_warning_filters)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 2072, in __call__\n    return output if self.return_generator else list(output)\n                                                ~~~~^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1682, in _get_outputs\n    yield from self._retrieve()\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1784, in _retrieve\n    self._raise_error_fast()\n    ~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1859, in _raise_error_fast\n    error_job.get_result(self.timeout)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 758, in get_result\n    return self._return_or_raise()\n           ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 773, in _return_or_raise\n    raise self._result\njoblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.\n"
+            }
+        },
+        "best_params": null,
+        "feature_importance": null,
+        "training_time_seconds": 0.6236374378204346
+    },
+    "KNN": {
+        "metrics": {
+            "train_r2": -Infinity,
+            "test_r2": -Infinity,
+            "error": {
+                "error_type": "TerminatedWorkerError",
+                "error_message": "A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.",
+                "traceback": "Traceback (most recent call last):\n  File \"C:\\apple\\src\\mltest\\components\\model_trainer.py\", line 531, in initiate_model_trainer\n    search.fit(X_train, y_train)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1051, in fit\n    self._run_search(evaluate_candidates)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1992, in _run_search\n    evaluate_candidates(\n    ~~~~~~~~~~~~~~~~~~~^\n        ParameterSampler(\n        ^^^^^^^^^^^^^^^^^\n            self.param_distributions, self.n_iter, random_state=self.random_state\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 997, in evaluate_candidates\n    out = parallel(\n        delayed(_fit_and_score)(\n    ...<13 lines>...\n        )\n    )\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\utils\\parallel.py\", line 82, in __call__\n    return super().__call__(iterable_with_config_and_warning_filters)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 2072, in __call__\n    return output if self.return_generator else list(output)\n                                                ~~~~^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1682, in _get_outputs\n    yield from self._retrieve()\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1784, in _retrieve\n    self._raise_error_fast()\n    ~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1859, in _raise_error_fast\n    error_job.get_result(self.timeout)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 758, in get_result\n    return self._return_or_raise()\n           ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 773, in _return_or_raise\n    raise self._result\njoblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.\n"
+            }
+        },
+        "best_params": null,
+        "feature_importance": null,
+        "training_time_seconds": 0.7136585712432861
+    },
+    "Bagging": {
+        "metrics": {
+            "train_r2": -Infinity,
+            "test_r2": -Infinity,
+            "error": {
+                "error_type": "TerminatedWorkerError",
+                "error_message": "A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.",
+                "traceback": "Traceback (most recent call last):\n  File \"C:\\apple\\src\\mltest\\components\\model_trainer.py\", line 531, in initiate_model_trainer\n    search.fit(X_train, y_train)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1051, in fit\n    self._run_search(evaluate_candidates)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1992, in _run_search\n    evaluate_candidates(\n    ~~~~~~~~~~~~~~~~~~~^\n        ParameterSampler(\n        ^^^^^^^^^^^^^^^^^\n            self.param_distributions, self.n_iter, random_state=self.random_state\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 997, in evaluate_candidates\n    out = parallel(\n        delayed(_fit_and_score)(\n    ...<13 lines>...\n        )\n    )\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\utils\\parallel.py\", line 82, in __call__\n    return super().__call__(iterable_with_config_and_warning_filters)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 2072, in __call__\n    return output if self.return_generator else list(output)\n                                                ~~~~^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1682, in _get_outputs\n    yield from self._retrieve()\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1784, in _retrieve\n    self._raise_error_fast()\n    ~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1859, in _raise_error_fast\n    error_job.get_result(self.timeout)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 758, in get_result\n    return self._return_or_raise()\n           ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 773, in _return_or_raise\n    raise self._result\njoblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.\n"
+            }
+        },
+        "best_params": null,
+        "feature_importance": null,
+        "training_time_seconds": 0.48859262466430664
+    },
+    "XGBoost": {
+        "metrics": {
+            "train_r2": -Infinity,
+            "test_r2": -Infinity,
+            "error": {
+                "error_type": "TerminatedWorkerError",
+                "error_message": "A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.",
+                "traceback": "Traceback (most recent call last):\n  File \"C:\\apple\\src\\mltest\\components\\model_trainer.py\", line 525, in initiate_model_trainer\n    search.fit(\n    ~~~~~~~~~~^\n        X_train, y_train,\n        ^^^^^^^^^^^^^^^^^\n        eval_set=[(X_test, y_test)],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        verbose=False\n        ^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1051, in fit\n    self._run_search(evaluate_candidates)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1992, in _run_search\n    evaluate_candidates(\n    ~~~~~~~~~~~~~~~~~~~^\n        ParameterSampler(\n        ^^^^^^^^^^^^^^^^^\n            self.param_distributions, self.n_iter, random_state=self.random_state\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 997, in evaluate_candidates\n    out = parallel(\n        delayed(_fit_and_score)(\n    ...<13 lines>...\n        )\n    )\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\utils\\parallel.py\", line 82, in __call__\n    return super().__call__(iterable_with_config_and_warning_filters)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 2072, in __call__\n    return output if self.return_generator else list(output)\n                                                ~~~~^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1682, in _get_outputs\n    yield from self._retrieve()\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1784, in _retrieve\n    self._raise_error_fast()\n    ~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1859, in _raise_error_fast\n    error_job.get_result(self.timeout)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 758, in get_result\n    return self._return_or_raise()\n           ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 773, in _return_or_raise\n    raise self._result\njoblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.\n"
+            }
+        },
+        "best_params": null,
+        "feature_importance": null,
+        "training_time_seconds": 0.3695390224456787
+    },
+    "CatBoost": {
+        "metrics": {
+            "train_r2": -Infinity,
+            "test_r2": -Infinity,
+            "error": {
+                "error_type": "TerminatedWorkerError",
+                "error_message": "A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.",
+                "traceback": "Traceback (most recent call last):\n  File \"C:\\apple\\src\\mltest\\components\\model_trainer.py\", line 525, in initiate_model_trainer\n    search.fit(\n    ~~~~~~~~~~^\n        X_train, y_train,\n        ^^^^^^^^^^^^^^^^^\n        eval_set=[(X_test, y_test)],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        verbose=False\n        ^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\base.py\", line 1365, in wrapper\n    return fit_method(estimator, *args, **kwargs)\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1051, in fit\n    self._run_search(evaluate_candidates)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 1992, in _run_search\n    evaluate_candidates(\n    ~~~~~~~~~~~~~~~~~~~^\n        ParameterSampler(\n        ^^^^^^^^^^^^^^^^^\n            self.param_distributions, self.n_iter, random_state=self.random_state\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\model_selection\\_search.py\", line 997, in evaluate_candidates\n    out = parallel(\n        delayed(_fit_and_score)(\n    ...<13 lines>...\n        )\n    )\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\sklearn\\utils\\parallel.py\", line 82, in __call__\n    return super().__call__(iterable_with_config_and_warning_filters)\n           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 2072, in __call__\n    return output if self.return_generator else list(output)\n                                                ~~~~^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1682, in _get_outputs\n    yield from self._retrieve()\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1784, in _retrieve\n    self._raise_error_fast()\n    ~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 1859, in _raise_error_fast\n    error_job.get_result(self.timeout)\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 758, in get_result\n    return self._return_or_raise()\n           ~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\apple\\.venv\\Lib\\site-packages\\joblib\\parallel.py\", line 773, in _return_or_raise\n    raise self._result\njoblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.\n\nDetailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.\n"
+            }
+        },
+        "best_params": null,
+        "feature_importance": null,
+        "training_time_seconds": 0.2931373119354248
+    }
+}
