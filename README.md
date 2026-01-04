@@ -10,7 +10,7 @@
 
 **Predict BMW car prices with advanced ML and explore comprehensive market analytics through interactive dashboards.**
 
-[🚀 Live Demo](#-running-the-dashboards) • [📊 View Dashboards](#-interactive-dashboards) • [🔧 Installation](#-installation)
+[🚀 Live Demo](#-live-demo) • [📊 View Dashboards](#-interactive-dashboards) • [🔧 Installation](#-installation)
 
 </div>
 
@@ -46,6 +46,37 @@ The project features **two powerful dashboards**:
 - **Buyers**: Understand fair market values for BMW vehicles
 - **Sellers**: Get accurate price predictions for their cars
 - **Market Analysts**: Gain insights into BMW market trends
+
+---
+
+## 🚀 Live Demo
+
+### 🌐 Online Dashboards
+Experience the full power of BMW analytics through our live, interactive dashboards:
+
+#### 🚀 ML Performance Dashboard
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://[ml-dashboard-url].streamlit.app/)
+- **Live URL**: https://[ml-dashboard-url].streamlit.app/
+- **Features**: Model comparison, feature importance, performance metrics
+- **Status**: 🔄 Deploying to Streamlit Cloud
+
+#### 🚗 Data Exploration Dashboard
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://[data-dashboard-url].streamlit.app/)
+- **Live URL**: https://[data-dashboard-url].streamlit.app/
+- **Features**: 9 analysis sections, market insights, BMW trends
+- **Status**: 🔄 Deploying to Streamlit Cloud
+
+### 📱 How to Use Live Dashboards
+1. Click the Streamlit badges above or visit the URLs
+2. No installation required - works on any device
+3. Explore interactive visualizations and filters
+4. Get real-time BMW market insights
+
+### 🔧 Deployment Status
+- ✅ **Code Ready**: Deployment-optimized dashboards created
+- ✅ **GitHub Updated**: All files pushed to repository
+- 🔄 **Streamlit Cloud**: Deploying both dashboards
+- 📝 **URLs Pending**: Will update once deployed
 
 ---
 
@@ -184,6 +215,24 @@ The project features **two powerful dashboards**:
    ```bash
    pip install -r requirements.txt
    ```
+
+### 🌐 Deploy to Streamlit Cloud (Optional)
+
+For live online demos:
+
+1. **Go to [Streamlit Cloud](https://share.streamlit.io/)**
+
+2. **Deploy ML Dashboard**:
+   - Repository: `zayasinha/mltest`
+   - File path: `ml_dashboard_deploy.py`
+   - Click "Deploy"
+
+3. **Deploy Data Dashboard**:
+   - Repository: `zayasinha/mltest`
+   - File path: `data_dashboard_deploy.py`
+   - Click "Deploy"
+
+4. **Update README**: Replace placeholder URLs with live URLs
 
 ---
 
