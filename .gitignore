@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ML Project specific
+# Model artifacts (large files)
+artifacts/*.pkl
+artifacts/model.pkl
+artifacts/preprocessor.pkl
+artifacts/model_rank_*.pkl
+
+# Data files (can be large)
+artifacts/raw.csv
+artifacts/train.csv
+artifacts/test.csv
+
+# MLflow runs (can be large)
+mlruns/
+
+# Logs
+logs/
+
+# CatBoost training files
+catboost_info/
+
+# DVC files (if not needed)
+*.dvc
+.dvc/

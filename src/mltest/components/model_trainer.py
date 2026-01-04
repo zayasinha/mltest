@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from urllib.parse import urlparse
 import mlflow
 import mlflow.sklearn
+from mlflow.exceptions import MlflowException
 import numpy as np
 from sklearn.metrics import mean_squared_error,mean_absolute_error
 from catboost import CatBoostRegressor
@@ -117,37 +118,47 @@ class ModelTrainer:
 
             best_params = params[actual_model]
 
-            mlflow.set_registry_uri("https://dagshub.com/krishnaik06/mlprojecthindi.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/zayasinha/mltest.mlflow")
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
-            # mlflow
+            # mlflow — try remote; if 403 or other MlflowException occurs, fallback to local file store
+            try:
+                with mlflow.start_run():
+                    predicted_qualities = best_model.predict(X_test)
 
-            with mlflow.start_run():
+                    (rmse, mae, r2) = self.eval_metrics(y_test, predicted_qualities)
 
-                predicted_qualities = best_model.predict(X_test)
+                    mlflow.log_params(best_params)
 
-                (rmse, mae, r2) = self.eval_metrics(y_test, predicted_qualities)
+                    mlflow.log_metric("rmse", rmse)
+                    mlflow.log_metric("r2", r2)
+                    mlflow.log_metric("mae", mae)
 
-                mlflow.log_params(best_params)
+                    # Model registry does not work with file store
+                    if tracking_url_type_store != "file":
 
-                mlflow.log_metric("rmse", rmse)
-                mlflow.log_metric("r2", r2)
-                mlflow.log_metric("mae", mae)
+                        # Register the model
+                        # There are other ways to use the Model Registry, which depends on the use case,
+                        # please refer to the doc for more information:
+                        # https://mlflow.org/docs/latest/model-registry.html#api-workflow
+                        mlflow.sklearn.log_model(best_model, "model", registered_model_name=actual_model)
+                    else:
+                        mlflow.sklearn.log_model(best_model, "model")
 
 
-                # Model registry does not work with file store
-                if tracking_url_type_store != "file":
 
-                    # Register the model
-                    # There are other ways to use the Model Registry, which depends on the use case,
-                    # please refer to the doc for more information:
-                    # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-                    mlflow.sklearn.log_model(best_model, "model", registered_model_name=actual_model)
-                else:
+
+            except MlflowException as ml_err:
+                logging.warning(f"MLflow remote tracking error: {ml_err}; falling back to local file store './mlruns'.")
+                mlflow.set_tracking_uri(f"file:{os.path.abspath('mlruns')}")
+                with mlflow.start_run():
+                    predicted_qualities = best_model.predict(X_test)
+                    (rmse, mae, r2) = self.eval_metrics(y_test, predicted_qualities)
+                    mlflow.log_params(best_params)
+                    mlflow.log_metric("rmse", rmse)
+                    mlflow.log_metric("r2", r2)
+                    mlflow.log_metric("mae", mae)
                     mlflow.sklearn.log_model(best_model, "model")
-
-
-
 
             if best_model_score<0.6:
                 raise CustomException("No best model found")
